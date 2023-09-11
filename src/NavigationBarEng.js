@@ -1,4 +1,5 @@
 import React from "react";
+import "./NavigationBar.css";
 
 export default function NavigationBar(props) {
   function toFrench(event) {
@@ -24,28 +25,24 @@ export default function NavigationBar(props) {
         </button>
         <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
           <div className="navbar-nav ms-auto">
-            <a className="nav-link active" aria-current="page" href="/">
+            <a className="nav-link" aria-current="page" href="/">
               Home
             </a>
-            <a
-              className="nav-link active"
-              href="/about.html"
-              title="About Laia"
-            >
+            <a className="nav-link " href="/about.html" title="About Laia">
               About
             </a>
-            <a className="nav-link active" href="/work.html" title="Portfolio">
+            <a className="nav-link" href="/work.html" title="Portfolio">
               Work
             </a>
             <a
-              className="nav-link active"
+              className="nav-link"
               href="/about.html#contact-me"
               title="Contact Laia"
             >
               Contact
             </a>
             <a
-              className="nav-link active"
+              className="nav-link"
               href="/"
               onClick={toFrench}
               title="Change to French"
