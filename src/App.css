@@ -1,9 +1,27 @@
+/* font-family: 'Bitter', serif;
+font-family: 'Fira Code', monospace;
+font-family: 'Playfair Display', serif;
+font-family: 'Poppins', sans-serif; */
+:root {
+  --primary-color: #003348;
+  --secondary-color: #e3f7ff;
+  --navigation-color: #bbd4ed;
+  --btn-color: #4cb0e1;
+  --heading-font: "Playfair Display", serif;
+  --default-font: "Poppins", sans-serif;
+}
+body {
+  background: var(--primary-color);
+  font-family: var(--default-font);
+  color: var(--secondary-color);
+}
 .App {
   text-align: center;
 }
 
 .App-logo {
-  height: 40vmin;
+  margin-top: 300px;
+  height: 10vmin;
   pointer-events: none;
 }
 
