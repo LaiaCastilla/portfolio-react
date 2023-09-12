@@ -1,3 +1,6 @@
+.Home {
+  margin-bottom: 250px;
+}
 h1 {
   font-weight: bold;
   font-size: 140px;
@@ -19,6 +22,7 @@ h2 {
 .intro-links a:hover {
   color: var(--btn-color);
   text-decoration: none;
+  margin-bottom: 200px;
 }
 
 /* Underline animation for the links */
@@ -58,9 +62,18 @@ h2 {
     font-size: 12px;
   }
 }
-
 @media (min-height: 800px) {
   h1 {
     padding-top: 300px;
   }
 }
+
+/* @media (min-height: 800px) {
+  .Home {
+    margin-top: 100px;
+    margin-bottom: 300px;
+  }
+  h1 {
+    padding-top: 200px;
+  }
+} */

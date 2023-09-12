@@ -3,6 +3,7 @@ import React from "react";
 import responsive from "./images/responsive.png";
 import cv from "./images/CV-LaiaCastilla.pdf";
 import laia from "./images/laia.jpeg";
+
 import "./About.css";
 
 export default function About(props) {
