@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import "./NavigationBar.css";
 
 export default function NavigationBar(props) {
@@ -56,6 +56,7 @@ export default function NavigationBar(props) {
               data-bs-toggle="collapse"
               data-bs-target=".navbar-collapse.show"
               onClick={toHome}
+              id="home_page"
             >
               Home
             </a>
@@ -66,6 +67,7 @@ export default function NavigationBar(props) {
               data-bs-toggle="collapse"
               data-bs-target=".navbar-collapse.show"
               onClick={toAbout}
+              id="about_page"
             >
               About
             </a>
@@ -76,6 +78,7 @@ export default function NavigationBar(props) {
               data-bs-toggle="collapse"
               data-bs-target=".navbar-collapse.show"
               onClick={toWork}
+              id="work_page"
             >
               Work
             </a>
