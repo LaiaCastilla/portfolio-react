@@ -35,7 +35,44 @@
 .about-me .intro-links {
   font-size: 18px;
 }
+.skills {
+  padding-left: 20px;
+  gap: 30px;
+  align-content: center;
+}
+.react,
+.js,
+.bootstrap,
+.responsive {
+  font-size: 30px;
+}
 
+.react {
+  color: #60d7f9;
+}
+@media (prefers-reduced-motion: no-preference) {
+  .react {
+    animation: react-logo-spin infinite 20s linear;
+  }
+}
+@keyframes react-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.js {
+  color: #eed919;
+}
+.bootstrap {
+  color: #b28eff;
+}
+.responsive {
+  height: 35px;
+  line-height: 1;
+}
 #contact {
   margin-top: 0px;
 }

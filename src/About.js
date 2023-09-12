@@ -1,5 +1,6 @@
 import React from "react";
 
+import responsive from "./images/responsive.png";
 import cv from "./images/CV-LaiaCastilla.pdf";
 import laia from "./images/laia.jpeg";
 import "./About.css";
@@ -65,16 +66,27 @@ export default function About(props) {
         <p className="about-me-text">
           VsCode, MacOS, GitHub <br />
           Front-end dev:
-          {/* <div className="skillsIcons">
+          <div className="skills d-flex ">
             {" "}
-            <i class="fa-brands fa-bootstrap"></i>
-          </div> */}
-          React, JS, Bootstrap, Responsive development
-          <br />
-          Web design: Figma, Adobe Illustrator, Affinity Designer 2, Procreate
-          <br />
-          You can talk to me in: English, French, Spanish & Catalan. I am
-          currently learning Japanese(A2.1)
+            <i class="fa-brands fa-react react"></i>{" "}
+            <i class="fa-brands fa-js js"></i>{" "}
+            <i class="fa-brands fa-bootstrap bootstrap"></i>{" "}
+            <img
+              alt="Responsive"
+              class="false responsive"
+              src={responsive}
+            ></img>
+          </div>
+          Web design:
+          <div className="skills d-block d-md-flex">
+            <span>Figma</span> <span>Adobe Illustrator</span>{" "}
+            <span>Affinity Designer 2</span> <span>Procreate</span>
+          </div>
+          <div>
+            {" "}
+            You can talk to me in: English, French, Spanish & Catalan. I am
+            currently learning Japanese(A2.1)
+          </div>
         </p>
 
         <h2 className="secondary-title mt-5" id="contactme">

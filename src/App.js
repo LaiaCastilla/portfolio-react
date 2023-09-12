@@ -2,7 +2,6 @@ import EnglishPorfolio from "./EnglishPortfolio";
 import FrenchPortfolio from "./FrenchPortfolio";
 import { useState } from "react";
 
-import logo from "./logo.svg";
 import "./App.css";
 
 function App() {
@@ -14,7 +13,6 @@ function App() {
       ) : (
         <FrenchPortfolio language={language} setLanguage={setLanguage} />
       )}
-      <img src={logo} className="App-logo" alt="logo" />
     </div>
   );
 }
