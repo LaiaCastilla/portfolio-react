@@ -6,6 +6,10 @@ export default function Home(props) {
     event.preventDefault();
     props.setPage("work");
   }
+  function toAbout(event) {
+    event.preventDefault();
+    props.setPage("about");
+  }
   return (
     <div className="Home container">
       <h1>Laia</h1>
@@ -23,6 +27,7 @@ export default function Home(props) {
           href="/about.html"
           title="Learn more about me"
           className="link ms-3 about hover-underline-animation"
+          onClick={toAbout}
         >
           more about me
         </a>

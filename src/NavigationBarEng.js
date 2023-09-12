@@ -19,6 +19,16 @@ export default function NavigationBar(props) {
     props.setPage("work");
   }
 
+  function toContact(event) {
+    event.preventDefault();
+    props.setPage("about");
+
+    if (props.page === "about") {
+      const contact = document.getElementById("contactme");
+      contact.scrollIntoView({ behavior: "smooth" });
+    }
+  }
+
   return (
     <nav className="NavigationBar navbar navbar-expand-lg navbar-dark">
       <div className="container-fluid">
@@ -43,6 +53,8 @@ export default function NavigationBar(props) {
               aria-current="page"
               href="/"
               title="Homepage"
+              data-bs-toggle="collapse"
+              data-bs-target=".navbar-collapse.show"
               onClick={toHome}
             >
               Home
@@ -51,6 +63,8 @@ export default function NavigationBar(props) {
               className="nav-link "
               href="/"
               title="About Laia"
+              data-bs-toggle="collapse"
+              data-bs-target=".navbar-collapse.show"
               onClick={toAbout}
             >
               About
@@ -59,15 +73,19 @@ export default function NavigationBar(props) {
               className="nav-link"
               href="/work.html"
               title="Portfolio"
+              data-bs-toggle="collapse"
+              data-bs-target=".navbar-collapse.show"
               onClick={toWork}
             >
               Work
             </a>
             <a
               className="nav-link"
-              href="#contact-me"
+              href="./About#contactme"
               title="Contact Laia"
-              onClick={toAbout}
+              data-bs-toggle="collapse"
+              data-bs-target=".navbar-collapse.show"
+              onClick={toContact}
             >
               Contact
             </a>

@@ -7,7 +7,11 @@ import reactweather from "./images/reactweather.png";
 import dictionary from "./images/dictionary.png";
 import "./Work.css";
 
-export default function Work() {
+export default function Work(props) {
+  function toAbout(event) {
+    event.preventDefault();
+    props.setPage("about");
+  }
   return (
     <div className="Work container">
       <h1 className="secondary-title mt-5 mb-5">Take a look at my portfolio</h1>
@@ -239,8 +243,9 @@ export default function Work() {
       </div>
       <a
         className="work-inquiry hover-underline-animation"
-        href="/about.html#contact"
+        href="./About#contactme"
         title="Check out how to contact me"
+        onClick={toAbout}
       >
         Let's work together!
       </a>
