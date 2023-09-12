@@ -1,0 +1,66 @@
+h1 {
+  font-weight: bold;
+  font-size: 140px;
+  padding-top: 175px;
+}
+
+h2 {
+  font-family: var(--default-font);
+  font-weight: normal;
+  font-size: 30px;
+  line-height: 2;
+}
+.intro-links a {
+  font-family: bitter;
+  color: var(--navigation-color);
+  text-decoration: none;
+  transition: all 200ms ease-in-out;
+}
+.intro-links a:hover {
+  color: var(--btn-color);
+  text-decoration: none;
+}
+
+/* Underline animation for the links */
+.hover-underline-animation {
+  display: inline-block;
+  position: relative;
+  color: var(--btn-color);
+}
+.hover-underline-animation::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: var(--btn-color);
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
+}
+.hover-underline-animation:hover::after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+
+@media (max-width: 830px) {
+  h1 {
+    font-weight: bold;
+    font-size: 80px;
+    padding-top: 150px;
+  }
+  h2 {
+    font-size: 16px;
+    line-height: 2;
+  }
+  .intro-links a {
+    font-size: 12px;
+  }
+}
+
+@media (min-height: 800px) {
+  h1 {
+    padding-top: 300px;
+  }
+}

@@ -15,6 +15,10 @@ body {
   font-family: var(--default-font);
   color: var(--secondary-color);
 }
+h1,
+h2 {
+  font-family: var(--heading-font);
+}
 .App {
   text-align: center;
 }

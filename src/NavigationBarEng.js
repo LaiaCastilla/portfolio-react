@@ -6,10 +6,23 @@ export default function NavigationBar(props) {
     event.preventDefault();
     props.setLanguage("French");
   }
+  function toHome(event) {
+    event.preventDefault();
+    props.setPage("home");
+  }
+  function toAbout(event) {
+    event.preventDefault();
+    props.setPage("about");
+  }
+  function toWork(event) {
+    event.preventDefault();
+    props.setPage("work");
+  }
+
   return (
     <nav className="NavigationBar navbar navbar-expand-lg navbar-dark">
       <div className="container-fluid">
-        <a className="navbar-brand" href="/">
+        <a className="navbar-brand" href="/" onClick={toHome}>
           Laia Castilla i Amorós
         </a>
         <button
@@ -25,19 +38,36 @@ export default function NavigationBar(props) {
         </button>
         <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
           <div className="navbar-nav ms-auto">
-            <a className="nav-link" aria-current="page" href="/">
+            <a
+              className="nav-link"
+              aria-current="page"
+              href="/"
+              title="Homepage"
+              onClick={toHome}
+            >
               Home
             </a>
-            <a className="nav-link " href="/about.html" title="About Laia">
+            <a
+              className="nav-link "
+              href="/"
+              title="About Laia"
+              onClick={toAbout}
+            >
               About
             </a>
-            <a className="nav-link" href="/work.html" title="Portfolio">
+            <a
+              className="nav-link"
+              href="/work.html"
+              title="Portfolio"
+              onClick={toWork}
+            >
               Work
             </a>
             <a
               className="nav-link"
-              href="/about.html#contact-me"
+              href="#contact-me"
               title="Contact Laia"
+              onClick={toAbout}
             >
               Contact
             </a>
