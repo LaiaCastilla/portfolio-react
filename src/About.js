@@ -1,6 +1,10 @@
 import React from "react";
 
+import vscode from "./images/vscode.svg";
 import responsive from "./images/responsive.png";
+import illustrator from "./images/illustrator.png";
+import designer from "./images/designer.svg";
+import procreate from "./images/procreate.png";
 import cv from "./images/CV-LaiaCastilla.pdf";
 import laia from "./images/laia.jpeg";
 
@@ -65,25 +69,75 @@ export default function About(props) {
       <div id="contact">
         <h2 className="secondary-title">My skillset</h2>
         <p className="about-me-text">
-          VsCode, MacOS, GitHub <br />
+          <span className="d-flex skillset mb-3">
+            <img alt="VsCode" class="false responsive me-3" src={vscode}></img>
+            macOS <i class="ms-3 fa-brands fa-github skillgit"></i> <br />
+          </span>
           Front-end dev:
-          <div className="skills d-flex ">
+          <div className="skills  text-center mb-2 mt-2">
             {" "}
-            <i class="fa-brands fa-react react"></i>{" "}
-            <i class="fa-brands fa-js js"></i>{" "}
-            <i class="fa-brands fa-bootstrap bootstrap"></i>{" "}
-            <img
-              alt="Responsive"
-              class="false responsive"
-              src={responsive}
-            ></img>
+            <div class="row row-cols-4">
+              <div class="col">
+                <i class="fa-brands fa-react react"></i>
+              </div>
+              <div class="col">
+                <i class="fa-brands fa-js js"></i>{" "}
+              </div>
+              <div class="col">
+                <i class="fa-brands fa-bootstrap bootstrap"></i>{" "}
+              </div>
+              <div class="col">
+                {" "}
+                <img
+                  alt="Responsive"
+                  class="false responsive"
+                  src={responsive}
+                ></img>
+              </div>
+              <div class="col">React.js</div>
+              <div class="col">JavaScript</div>
+              <div class="col">Bootstrap</div>
+              <div class="col">Responsive development</div>
+            </div>{" "}
           </div>
           Web design:
-          <div className="skills d-block d-md-flex">
-            <span>Figma</span> <span>Adobe Illustrator</span>{" "}
-            <span>Affinity Designer 2</span> <span>Procreate</span>
+          <div className="skills text-center mb-2 mt-2">
+            {" "}
+            <div class="row row-cols-4">
+              <div class="col">
+                <i class="fa-brands fa-figma"></i>
+              </div>
+              <div class="col">
+                {" "}
+                <img
+                  alt="illustrator"
+                  class="false responsive"
+                  src={illustrator}
+                ></img>
+              </div>
+              <div class="col">
+                {" "}
+                <img
+                  alt="Affinity Designer 2"
+                  class="false responsive"
+                  src={designer}
+                ></img>
+              </div>
+              <div class="col">
+                {" "}
+                <img
+                  alt="Procreate"
+                  class="false responsive"
+                  src={procreate}
+                ></img>
+              </div>
+              <div class="col">Figma</div>
+              <div class="col">Adobe Illustrator</div>
+              <div class="col">Affinity Designer 2</div>
+              <div class="col">Procreate</div>
+            </div>{" "}
           </div>
-          <div>
+          <div className="mt-4">
             {" "}
             You can talk to me in: English, French, Spanish & Catalan. I am
             currently learning Japanese(A2.1)

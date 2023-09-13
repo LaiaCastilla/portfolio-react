@@ -35,15 +35,19 @@
 .about-me .intro-links {
   font-size: 18px;
 }
-.skills {
-  padding-left: 20px;
-  gap: 30px;
-  align-content: center;
+.skillset {
+  align-items: center;
 }
-.react,
-.js,
-.bootstrap,
-.responsive {
+.skillgit {
+  font-size: 30px;
+}
+
+#contact .row {
+  padding-left: 20px;
+  line-height: 20px;
+  max-width: 800px;
+}
+#contact .row i {
   font-size: 30px;
 }
 
