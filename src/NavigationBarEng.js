@@ -92,14 +92,30 @@ export default function NavigationBar(props) {
             >
               Contact
             </a>
-            <a
-              className="nav-link"
-              href="/"
-              onClick={toFrench}
-              title="Change to French"
-            >
-              Français
-            </a>
+
+            <li className="nav-item dropdown">
+              <a
+                className="nav-link dropdown-toggle"
+                href="/"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                English
+              </a>
+              <ul className="dropdown-menu  dropdown-menu-dark">
+                <li>
+                  <a
+                    className="dropdown-item nav-link"
+                    href="/"
+                    onClick={toFrench}
+                    title="Change to French"
+                  >
+                    Français
+                  </a>
+                </li>
+              </ul>
+            </li>
           </div>
         </div>
       </div>

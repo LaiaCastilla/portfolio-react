@@ -1,6 +1,11 @@
 .nav-link {
   color: white;
   opacity: 0.7;
+  background-color: #003348;
+}
+.dropdown-menu {
+  background-color: #003348;
+  border: none;
 }
 .nav-link:hover {
   /* color: var(--navigation-color); */
@@ -22,5 +27,8 @@
   .navbar-nav {
     padding-right: 0px;
     margin-right: 0px;
+  }
+  .dropdown-menu {
+    text-align: center;
   }
 }
