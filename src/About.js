@@ -29,7 +29,8 @@ export default function About(props) {
             <p className="about-me-text">
               I’m currently seeking new opportunities in front-end development.
               I’m open to work onsite and/or remotely. Trained in React, I am
-              always trying to deepen my knowledge and expand my programming.
+              always trying to deepen my knowledge and expand my programming
+              skills.
               <br />
               Originally from Barcelona, after having studied in Switzerland I
               am now established in Geneva.
