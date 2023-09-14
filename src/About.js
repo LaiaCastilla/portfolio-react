@@ -32,7 +32,7 @@ export default function About(props) {
               always trying to deepen my knowledge and expand my programming
               skills.
               <br />
-              Originally from Barcelona, after having studied in Switzerland I
+              Originally from Barcelona, after having studied in Switzerland, I
               am now established in Geneva.
             </p>
             <div className="about-me-links">

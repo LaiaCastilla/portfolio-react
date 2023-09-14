@@ -29,15 +29,13 @@ export default function Work(props) {
             <div className="project-description weather">
               <h2 className="mb-3">Weather App</h2>
               <p>
-                My first "real" project... I built a Vanilla JavaScript weather
-                app in SheCodes Plus, an advanced 8-week JavaScript coding
-                workshop. Building upon my previously-gained knowledge, I also
-                became skilled in Bootstrap, API’s, real-life development
-                workflow, hosting, and advanced JavaScript. Using Procreate, I
-                created the weather icons as well as the background. I combined
-                all of these skills to create a fully-functioning weather app.
-                Both the icons and the background change during the night-time.
-                Check it out!
+                I built a Vanilla JavaScript weather app in SheCodes Plus, an
+                advanced 8-week JavaScript coding workshop. Building upon my
+                previously-gained knowledge, I also became skilled in Bootstrap,
+                API’s, real-life development workflow, hosting, and advanced
+                JavaScript. Using Procreate, I created the weather icons as well
+                as the background. Both the icons and the background change
+                during the night-time.
               </p>
               <div className="btn">
                 <a
@@ -80,8 +78,7 @@ export default function Work(props) {
                 clock app. This project was also built with Bootstrap, API’s,
                 real-life development workflow, hosting, and advanced
                 JavaScript. Salvador Dalí and the wild concept of time inspired
-                me for the app's background, which I draw using Procreate. Check
-                out the local time of your next destination!
+                me for the app's background, which I draw using Procreate.
               </p>
               <div className="btn">
                 <a
@@ -121,13 +118,10 @@ export default function Work(props) {
             <div className="project-description">
               <h2 className="mb-3">Travel Project</h2>
               <p>
-                A less complex website showcasing a beautiful travel
-                destination. Completely responsive, it was made with more
-                advanced HTML and CSS than the previous two. SEO friendly, it
-                includes multiple HTML embeds. It is a beautifully designed and
-                well-executed landing page with useful information and
-                functional links. Check it out if you are planning on visiting
-                Japan!
+                A landing page showcasing a beautiful travel destination.
+                Completely responsive, it was made with more advanced HTML and
+                CSS than the previous two. SEO friendly, it includes multiple
+                HTML embeds.
               </p>
               <div className="btn">
                 <a
@@ -166,12 +160,11 @@ export default function Work(props) {
             <div className="project-description">
               <h2 className="mb-3">React Weather App</h2>
               <p>
-                Similar to my first project, this time I immersed myself in
-                React development. I combined all my previously acquired
-                knowledge and this highly-demanded framework to build a working
-                weather app incorporating coding best practices, along with the
-                most popular tools and technologies. What weather app design do
-                you prefer?
+                This app is similar to my first project, but this time I
+                immersed myself in React development. I combined all my
+                previously acquired knowledge and this highly-demanded framework
+                to build a working weather app incorporating coding best
+                practices.
               </p>
               <div className="btn">
                 <a
@@ -211,9 +204,8 @@ export default function Work(props) {
               <h2 className="mb-3">Dictionary App</h2>
               <p>
                 Consolidating my React framework skills, I created this
-                minimalistic and stylish dictionary application. Completely
-                functional and visually pleasing, making it was a great learning
-                experience. Don't be shy and look for your word of the day!
+                minimalistic and elegant dictionary application, hopefully it
+                will also be visually pleasing!
               </p>
               <div className="btn">
                 <a
