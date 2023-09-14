@@ -27,17 +27,18 @@ export default function Projets(props) {
 
           <div className="col-md-6">
             <div className="project-description weather">
-              <h2 className="mb-3">Weather App</h2>
+              <h2 className="mb-3">Application météo</h2>
               <p>
-                My first "real" project... I built a Vanilla JavaScript weather
-                app in SheCodes Plus, an advanced 8-week JavaScript coding
-                workshop. Building upon my previously-gained knowledge, I also
-                became skilled in Bootstrap, API’s, real-life development
-                workflow, hosting, and advanced JavaScript. Using Procreate, I
-                created the weather icons as well as the background. I combined
-                all of these skills to create a fully-functioning weather app.
-                Both the icons and the background change during the night-time.
-                Check it out!
+                Mon premier "vrai" projet... J'ai créé une application météo en
+                Vanilla JavaScript dans le cadre de SheCodes Plus, un atelier de
+                codage JavaScript avancé de 8 semaines. En m'appuyant sur les
+                connaissances que j'avais déjà acquises, j'ai également acquis
+                des compétences en Bootstrap, API, hébergement de sites web et
+                JavaScript avancé. À l'aide de Procreate, j'ai créé les icônes
+                météorologiques ainsi que l'arrière-plan. J'ai combiné toutes
+                ces compétences pour créer une application météo entièrement
+                fonctionnelle. Les icônes et l'arrière-plan changent pendant la
+                nuit. Essayez-le !
               </p>
               <div className="btn">
                 <a
@@ -47,7 +48,7 @@ export default function Projets(props) {
                   rel="noreferrer"
                   title="Check out the weather in your city!"
                 >
-                  <i className="fa-regular fa-window-restore"></i> Launch
+                  <i className="fa-regular fa-window-restore"></i> Lancer
                 </a>
               </div>
               <div className="btn">
@@ -74,14 +75,15 @@ export default function Projets(props) {
           </div>
           <div className="col-md-6 order-md-1">
             <div className="project-description">
-              <h2 className="mb-3">World Clock</h2>
+              <h2 className="mb-3">Horloge mondiale</h2>
               <p>
-                Following the above project, I built a Vanilla JavaScript world
-                clock app. This project was also built with Bootstrap, API’s,
-                real-life development workflow, hosting, and advanced
-                JavaScript. Salvador Dalí and the wild concept of time inspired
-                me for the app's background, which I draw using Procreate. Check
-                out the local time of your next destination!
+                Suite au projet ci-dessus, j'ai construit une application
+                d'horloge mondiale en Vanilla JavaScript. Ce projet a également
+                été construit avec Bootstrap, intégration d'API, hébergement des
+                sites web et JavaScript avancé. Salvador Dalí et le concept
+                impalpable du temps m'ont inspiré pour l'arrière-plan de
+                l'application, que j'ai dessiné avec Procreate. Vérifiez l'heure
+                locale de votre prochaine destination !
               </p>
               <div className="btn">
                 <a
@@ -91,7 +93,7 @@ export default function Projets(props) {
                   rel="noreferrer"
                   title="Check out this world clock application"
                 >
-                  <i clasName="fa-regular fa-window-restore"></i> Launch
+                  <i clasName="fa-regular fa-window-restore"></i> Lancer
                 </a>
               </div>
               <div className="btn">
@@ -119,15 +121,15 @@ export default function Projets(props) {
           </div>
           <div className="col-md-6">
             <div className="project-description">
-              <h2 className="mb-3">Travel Project</h2>
+              <h2 className="mb-3">Projet de voyage</h2>
               <p>
-                A less complex website showcasing a beautiful travel
-                destination. Completely responsive, it was made with more
-                advanced HTML and CSS than the previous two. SEO friendly, it
-                includes multiple HTML embeds. It is a beautifully designed and
-                well-executed landing page with useful information and
-                functional links. Check it out if you are planning on visiting
-                Japan!
+                Un site web moins complexe présentant une belle destination de
+                voyage. Complètement réactif, il a été réalisé avec du HTML et
+                du CSS plus avancés que les deux précédents. Il comprend de
+                nombreux liens HTML et est compatible avec SEO. Il s'agit d'une
+                page d'atterrissage joliment conçue et bien exécutée, avec des
+                informations utiles et des liens fonctionnels. Jetez-y un coup
+                d'œil si vous envisagez de visiter le Japon !
               </p>
               <div className="btn">
                 <a
@@ -137,7 +139,7 @@ export default function Projets(props) {
                   rel="noreferrer"
                   title="Visit this drawing application"
                 >
-                  <i className="fa-regular fa-window-restore"></i> Launch
+                  <i className="fa-regular fa-window-restore"></i> Lancer
                 </a>
               </div>
               <div className="btn">
@@ -164,14 +166,15 @@ export default function Projets(props) {
           </div>
           <div className="col-md-6 order-md-1">
             <div className="project-description">
-              <h2 className="mb-3">React Weather App</h2>
+              <h2 className="mb-3">Application météo React</h2>
               <p>
-                Similar to my first project, this time I immersed myself in
-                React development. I combined all my previously acquired
-                knowledge and this highly-demanded framework to build a working
-                weather app incorporating coding best practices, along with the
-                most popular tools and technologies. What weather app design do
-                you prefer?
+                Un peu comme pour mon premier projet, cette fois-ci je me suis
+                plongé dans le développement React. J'ai combiné toutes mes
+                connaissances acquises précédemment et ce framework très demandé
+                pour construire une application météo fonctionnelle intégrant
+                les meilleures pratiques de codage, ainsi que les outils et
+                technologies les plus populaires. Quel design d'application
+                météo préférez-vous ?
               </p>
               <div className="btn">
                 <a
@@ -181,7 +184,7 @@ export default function Projets(props) {
                   rel="noreferrer"
                   title="Check out this world clock application"
                 >
-                  <i className="fa-regular fa-window-restore"></i> Launch
+                  <i className="fa-regular fa-window-restore"></i> Lancer
                 </a>
               </div>
               <div className="btn">
@@ -208,12 +211,13 @@ export default function Projets(props) {
           </div>
           <div className="col-md-6">
             <div className="project-description">
-              <h2 className="mb-3">Dictionary App</h2>
+              <h2 className="mb-3">Application dictionnaire</h2>
               <p>
-                Consolidating my React framework skills, I created this
-                minimalistic and stylish dictionary application. Completely
-                functional and visually pleasing, making it was a great learning
-                experience. Don't be shy and look for your word of the day!
+                En consolidant mes compétences en matière du framework React,
+                j'ai créé cette application dictionnaire minimaliste et
+                élégante. Complètement fonctionnelle et visuellement agréable,
+                sa réalisation a été une grande expérience d'apprentissage. Ne
+                soyez pas timide et cherchez votre mot du jour !
               </p>
               <div className="btn">
                 <a
@@ -223,7 +227,7 @@ export default function Projets(props) {
                   rel="noreferrer"
                   title="Visit this dictionary application"
                 >
-                  <i className="fa-regular fa-window-restore"></i> Launch
+                  <i className="fa-regular fa-window-restore"></i> Lancer
                 </a>
               </div>
               <div className="btn">
@@ -247,7 +251,7 @@ export default function Projets(props) {
         title="Check out how to contact me"
         onClick={toApropos}
       >
-        Let's work together!
+        Travaillons ensemble !
       </a>
     </div>
   );

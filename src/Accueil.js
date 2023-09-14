@@ -1,6 +1,6 @@
 import React from "react";
 
-import Footer from "./Footer";
+import FooterFr from "./FooterFr";
 import "./Home.css";
 
 export default function Accueil(props) {
@@ -34,7 +34,7 @@ export default function Accueil(props) {
           à propos de moi
         </a>
       </div>
-      <Footer />
+      <FooterFr />
     </div>
   );
 }

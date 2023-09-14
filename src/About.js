@@ -5,7 +5,7 @@ import responsive from "./images/responsive.png";
 import illustrator from "./images/illustrator.png";
 import designer from "./images/designer.svg";
 import procreate from "./images/procreate.png";
-import cv from "./images/CV-LaiaCastilla.pdf";
+import cven from "./images/CVen-LaiaCastilla.pdf";
 import laia from "./images/laia.jpeg";
 
 import "./About.css";
@@ -47,7 +47,7 @@ export default function About(props) {
               </span>
               <span className="intro-links mt-4">
                 <a
-                  href={cv}
+                  href={cven}
                   className="link me-3 work hover-underline-animation"
                   target="_blank"
                   rel="noreferrer"

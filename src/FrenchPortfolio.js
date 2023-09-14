@@ -3,7 +3,7 @@ import NavigationBarFr from "./NavigationBarFr";
 import Accueil from "./Accueil";
 import Projets from "./Projets";
 import Apropos from "./Apropos";
-import Footer from "./Footer";
+import FooterFr from "./FooterFr";
 
 export default function FrenchPortfolio(props) {
   let [site, setSite] = useState("accueil");
@@ -21,15 +21,14 @@ export default function FrenchPortfolio(props) {
         <div>
           {" "}
           <Projets site={site} setSite={setSite} />
-          <Footer />
+          <FooterFr />
         </div>
       ) : site === "apropos" ? (
         <div>
           <Apropos site={site} setSite={setSite} />
-          <Footer />
+          <FooterFr />
         </div>
       ) : null}
-      Bonjour
     </div>
   );
 }
