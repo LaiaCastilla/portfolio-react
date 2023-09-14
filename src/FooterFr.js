@@ -30,15 +30,16 @@ export default function FooterFr() {
         </div>
 
         <div class="signature">
-          Conçu et codé{" "}
+          Conçu et codé en{" "}
           <a
             href="https://github.com/Aylhenia/portfolio-react"
             title="Portfolio's repository"
             target="_blank"
             rel="noreferrer"
           >
-            <em>open-source</em>{" "}
-          </a>
+            <em>open-source</em>
+            {"  "}
+          </a>{" "}
           par Laia
         </div>
       </div>

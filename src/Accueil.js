@@ -15,7 +15,7 @@ export default function Accueil(props) {
   return (
     <div className="Home container">
       <h1>Laia</h1>
-      <h2>Dévelopeuse Front-end en Suisse</h2>
+      <h2>Développeuse Front-end en Suisse</h2>
       <div className="intro-links mt-4">
         <a
           href="/"

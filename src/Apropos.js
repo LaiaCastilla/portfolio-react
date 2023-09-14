@@ -148,7 +148,7 @@ export default function Apropos(props) {
         </p>
 
         <h2 className="secondary-title mt-5" id="contactme">
-          Entrons en contact!
+          Contactez-moi !
         </h2>
         <p className="about-me-text">
           Je suis actuellement à la recherche d'un premier emploi en tant que

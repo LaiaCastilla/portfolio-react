@@ -14,7 +14,7 @@ export default function Projets(props) {
   }
   return (
     <div className="Work container">
-      <h1 className="secondary-title mt-5 mb-5">Regardez mon portfolio</h1>
+      <h1 className="secondary-title mt-5 mb-5">Mon portfolio</h1>
       <div className="work-portfolio">
         <div className="row mb-5">
           <div className="col-md-6">
@@ -35,8 +35,8 @@ export default function Projets(props) {
                 connaissances que j'avais déjà acquises, j'ai également acquis
                 des compétences en Bootstrap, API, hébergement de sites web et
                 JavaScript avancé. À l'aide de Procreate, j'ai créé les icônes
-                météorologiques ainsi que l'arrière-plan. J'ai combiné toutes
-                ces compétences pour créer une application météo entièrement
+                météo ainsi que l'arrière-plan. J'ai combiné toutes ces
+                compétences pour créer une application météo entièrement
                 fonctionnelle. Les icônes et l'arrière-plan changent pendant la
                 nuit. Essayez-le !
               </p>
@@ -82,8 +82,7 @@ export default function Projets(props) {
                 été construit avec Bootstrap, intégration d'API, hébergement des
                 sites web et JavaScript avancé. Salvador Dalí et le concept
                 impalpable du temps m'ont inspiré pour l'arrière-plan de
-                l'application, que j'ai dessiné avec Procreate. Vérifiez l'heure
-                locale de votre prochaine destination !
+                l'application, que j'ai dessiné avec Procreate. 
               </p>
               <div className="btn">
                 <a
@@ -173,8 +172,7 @@ export default function Projets(props) {
                 connaissances acquises précédemment et ce framework très demandé
                 pour construire une application météo fonctionnelle intégrant
                 les meilleures pratiques de codage, ainsi que les outils et
-                technologies les plus populaires. Quel design d'application
-                météo préférez-vous ?
+                technologies les plus populaires.
               </p>
               <div className="btn">
                 <a
@@ -216,8 +214,7 @@ export default function Projets(props) {
                 En consolidant mes compétences en matière du framework React,
                 j'ai créé cette application dictionnaire minimaliste et
                 élégante. Complètement fonctionnelle et visuellement agréable,
-                sa réalisation a été une grande expérience d'apprentissage. Ne
-                soyez pas timide et cherchez votre mot du jour !
+                sa réalisation a été une grande expérience d'apprentissage.
               </p>
               <div className="btn">
                 <a
