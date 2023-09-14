@@ -101,7 +101,7 @@ export default function About(props) {
                     ></img>
                   </div>
                 </div>
-                <div className="row">Responsive development</div>
+                <div className="row">Responsive</div>
               </div>
               <div className="col">
                 <div className="row">
@@ -115,7 +115,7 @@ export default function About(props) {
           <span className="skill-title">Web design</span>
           <div className="skills text-center mt-2">
             {" "}
-            <div className="row">
+            <div className="row justify-content-center">
               <div className="col">
                 <div className="row">
                   <i className="fa-brands fa-figma icn"></i>
@@ -144,7 +144,7 @@ export default function About(props) {
                     ></img>
                   </div>
                 </div>
-                <div className="row">Affinity Designer 2</div>
+                <div className="row">Affinity Designer</div>
               </div>
               <div className="col">
                 <div className="row">

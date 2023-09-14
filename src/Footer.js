@@ -5,7 +5,7 @@ import "./Footer.css";
 export default function Footer() {
   return (
     <div className="Footer">
-      <div class="footer container">
+      <div class="footer">
         <h2 class="email">lcastillaiamoros@gmail.com</h2>
         <div class="social-media">
           <a
