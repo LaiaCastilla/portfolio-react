@@ -50,7 +50,7 @@ export default function Work(props) {
               </div>
               <div className="btn">
                 <a
-                  href="https://github.com/Aylhenia/Vanilla-Weather-App"
+                  href="https://github.com/LaiaCastilla/Vanilla-Weather-App"
                   className="launch-link"
                   target="_blank"
                   rel="noreferrer"
@@ -93,7 +93,7 @@ export default function Work(props) {
               </div>
               <div className="btn">
                 <a
-                  href="https://github.com/Aylhenia/World-Clock-Project"
+                  href="https://github.com/LaiaCastilla/World-Clock-Project"
                   className="launch-link"
                   target="_blank"
                   rel="noreferrer"
@@ -136,7 +136,7 @@ export default function Work(props) {
               </div>
               <div className="btn">
                 <a
-                  href="https://github.com/Aylhenia/Yakushima-project"
+                  href="https://github.com/LaiaCastilla/Yakushima-project"
                   className="launch-link"
                   target="_blank"
                   rel="noreferrer"
@@ -179,7 +179,7 @@ export default function Work(props) {
               </div>
               <div className="btn">
                 <a
-                  href="https://github.com/Aylhenia/react-weather-app"
+                  href="https://github.com/LaiaCastilla/react-weather-app"
                   className="launch-link"
                   target="_blank"
                   rel="noreferrer"
@@ -220,7 +220,7 @@ export default function Work(props) {
               </div>
               <div className="btn">
                 <a
-                  href="https://github.com/Aylhenia/dictionary-project"
+                  href="https://github.com/LaiaCastilla/dictionary-project"
                   className="launch-link"
                   target="_blank"
                   rel="noreferrer"
