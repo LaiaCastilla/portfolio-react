@@ -72,7 +72,7 @@ export default function About(props) {
           <span className="skill-title">Front-end development</span>
           <div className="skills text-center mb-5 mt-2">
             {" "}
-            <div className="row">
+            <div className="row justify-content-center">
               <div className="col">
                 <div className="row">
                   <i className="fa-brands fa-react react icn"></i>

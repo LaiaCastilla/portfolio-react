@@ -1,5 +1,6 @@
 .footer {
   margin-top: 50px;
+  margin-right: 20px;
 }
 .email {
   font-size: 24px;
@@ -55,7 +56,9 @@
 /* In homepage */
 .Home .footer {
   position: fixed;
-  padding: 10px 10px 0px 10px;
+  display: block;
+  margin: 0 auto;
+  padding: 0px;
   bottom: 0;
   width: 100%;
   /* Height of the footer*/

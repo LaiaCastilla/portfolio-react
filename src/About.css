@@ -52,13 +52,18 @@
 .skill-title {
   font-size: 20px;
 }
+.skill-icons {
+  align-content: center;
+}
 #contact .row {
   padding-left: 20px;
   line-height: 20px;
   max-width: 800px;
   margin: 0 auto;
   justify-content: center;
+  gap: 20px;
 }
+
 #contact .row i {
   font-size: 30px;
 }
