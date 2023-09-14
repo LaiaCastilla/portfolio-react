@@ -72,71 +72,93 @@ export default function About(props) {
           <span className="skill-title">Front-end development</span>
           <div className="skills text-center mb-5 mt-2">
             {" "}
-            <div class="row row-cols-5">
-              <div class="col">
-                <i class="fa-brands fa-react react icn"></i>
+            <div className="row">
+              <div className="col">
+                <div className="row">
+                  <i className="fa-brands fa-react react icn"></i>
+                </div>
+                <div className="row text-center">React.js</div>
               </div>
-              <div class="col">
-                <i class="fa-brands fa-js js"></i>{" "}
+              <div className="col">
+                <div className="row">
+                  <i className="fa-brands fa-js js"></i>{" "}
+                </div>
+                <div className="row">JavaScript</div>
               </div>
-              <div class="col">
-                <i class="fa-brands fa-bootstrap bootstrap icn"></i>{" "}
+              <div className="col">
+                <div className="row">
+                  <i className="fa-brands fa-bootstrap bootstrap icn"></i>
+                </div>
+                <div className="row">Bootstrap</div>
               </div>
-              <div class="col">
-                {" "}
-                <img
-                  alt="Responsive"
-                  class="false responsive icn"
-                  src={responsive}
-                ></img>
+              <div className="col">
+                <div className="row">
+                  <div className="col">
+                    <img
+                      alt="Responsive"
+                      className="false responsive icn"
+                      src={responsive}
+                    ></img>
+                  </div>
+                </div>
+                <div className="row">Responsive development</div>
               </div>
-              <div class="col">
-                <i class="fa-brands fa-git-alt git icn"></i>{" "}
-              </div>
+              <div className="col">
+                <div className="row">
+                  <i className="fa-brands fa-git-alt git icn"></i>
+                </div>
 
-              <div class="col">React.js</div>
-              <div class="col">JavaScript</div>
-              <div class="col">Bootstrap</div>
-              <div class="col">Responsive development</div>
-              <div class="col">Git</div>
+                <div className="row">Git</div>
+              </div>
             </div>{" "}
           </div>
           <span className="skill-title">Web design</span>
           <div className="skills text-center mt-2">
             {" "}
-            <div class="row row-cols-4">
-              <div class="col">
-                <i class="fa-brands fa-figma icn"></i>
+            <div className="row">
+              <div className="col">
+                <div className="row">
+                  <i className="fa-brands fa-figma icn"></i>
+                </div>
+                <div className="row text-center">Figma</div>
               </div>
-              <div class="col">
-                {" "}
-                <img
-                  alt="illustrator"
-                  class="false responsive icn"
-                  src={illustrator}
-                ></img>
+              <div className="col">
+                <div className="row">
+                  <div className="col">
+                    <img
+                      alt="illustrator"
+                      className="false responsive icn"
+                      src={illustrator}
+                    ></img>
+                  </div>
+                </div>
+                <div className="row">Adobe Illustrator</div>
               </div>
-              <div class="col">
-                {" "}
-                <img
-                  alt="Affinity Designer 2"
-                  class="false responsive icn"
-                  src={designer}
-                ></img>
+              <div className="col">
+                <div className="row">
+                  <div className="col">
+                    <img
+                      alt="Affinity Designer 2"
+                      className="false responsive icn"
+                      src={designer}
+                    ></img>
+                  </div>
+                </div>
+                <div className="row">Affinity Designer 2</div>
               </div>
-              <div class="col">
-                {" "}
-                <img
-                  alt="Procreate"
-                  class="false responsive icn"
-                  src={procreate}
-                ></img>
+              <div className="col">
+                <div className="row">
+                  <div className="col">
+                    <img
+                      alt="Procreate"
+                      className="false responsive icn"
+                      src={procreate}
+                    ></img>
+                  </div>
+                </div>
+                <div className="row">Procreate</div>
               </div>
-              <div class="col">Figma</div>
-              <div class="col">Adobe Illustrator</div>
-              <div class="col">Affinity Designer 2</div>
-              <div class="col">Procreate</div>
-            </div>{" "}
+            </div>
           </div>
           <div className="mt-5">
             {" "}
