@@ -29,16 +29,13 @@ export default function Projets(props) {
             <div className="project-description weather">
               <h2 className="mb-3">Application météo</h2>
               <p>
-                Mon premier "vrai" projet... J'ai créé une application météo en
-                Vanilla JavaScript dans le cadre de SheCodes Plus, un atelier de
-                codage JavaScript avancé de 8 semaines. En m'appuyant sur les
-                connaissances que j'avais déjà acquises, j'ai également acquis
-                des compétences en Bootstrap, API, hébergement de sites web et
-                JavaScript avancé. À l'aide de Procreate, j'ai créé les icônes
-                météo ainsi que l'arrière-plan. J'ai combiné toutes ces
-                compétences pour créer une application météo entièrement
-                fonctionnelle. Les icônes et l'arrière-plan changent pendant la
-                nuit. Essayez-le !
+                J'ai créé cette application météo en Vanilla JavaScript dans le
+                cadre de SheCodes Plus, un atelier de codage JavaScript avancé
+                de 8 semaines. Codé avec des compétences en Bootstrap, API,
+                hébergement de sites web et JavaScript avancé. À l'aide de
+                Procreate, j'ai créé les icônes météo ainsi que l'arrière-plan,
+                qui s’adaptent en fonction de l’heure locale de la ville
+                consultée. Essayez-la !
               </p>
               <div className="btn">
                 <a
@@ -78,11 +75,11 @@ export default function Projets(props) {
               <h2 className="mb-3">Horloge mondiale</h2>
               <p>
                 Suite au projet ci-dessus, j'ai construit une application
-                d'horloge mondiale en Vanilla JavaScript. Ce projet a également
-                été construit avec Bootstrap, intégration d'API, hébergement des
-                sites web et JavaScript avancé. Salvador Dalí et le concept
-                impalpable du temps m'ont inspiré pour l'arrière-plan de
-                l'application, que j'ai dessiné avec Procreate. 
+                d'horloge mondiale en Vanilla JavaScript. Ce projet fait
+                également usage de Bootstrap, Javascript et requêtes API.
+                Salvador Dalí et le concept impalpable du temps m'ont inspiré
+                pour l'arrière-plan de l'application, que j'ai dessiné avec
+                Procreate.
               </p>
               <div className="btn">
                 <a
@@ -124,8 +121,8 @@ export default function Projets(props) {
               <p>
                 Un site web moins complexe présentant une belle destination de
                 voyage. Complètement réactif, il a été réalisé avec du HTML et
-                du CSS plus avancés que les deux précédents. Il comprend de
-                nombreux liens HTML et est compatible avec SEO. Il s'agit d'une
+                du CSS plus avancés que les deux précédents, et utilise des
+                technique SEO pour améliorer le référencement. Il s'agit d'une
                 page d'atterrissage joliment conçue et bien exécutée, avec des
                 informations utiles et des liens fonctionnels. Jetez-y un coup
                 d'œil si vous envisagez de visiter le Japon !
@@ -168,11 +165,10 @@ export default function Projets(props) {
               <h2 className="mb-3">Application météo React</h2>
               <p>
                 Un peu comme pour mon premier projet, cette fois-ci je me suis
-                plongé dans le développement React. J'ai combiné toutes mes
-                connaissances acquises précédemment et ce framework très demandé
-                pour construire une application météo fonctionnelle intégrant
-                les meilleures pratiques de codage, ainsi que les outils et
-                technologies les plus populaires.
+                plongé dans le développement React. J'ai combiné toutes les
+                connaissances acquises précédemment pour construire une
+                application météo intégrant les meilleures pratiques de codage,
+                ainsi que les outils et technologies les plus populaires.
               </p>
               <div className="btn">
                 <a
@@ -211,10 +207,9 @@ export default function Projets(props) {
             <div className="project-description">
               <h2 className="mb-3">Application dictionnaire</h2>
               <p>
-                En consolidant mes compétences en matière du framework React,
-                j'ai créé cette application dictionnaire minimaliste et
-                élégante. Complètement fonctionnelle et visuellement agréable,
-                sa réalisation a été une grande expérience d'apprentissage.
+                En consolidant mes compétences en React, j'ai créé cette
+                application dictionnaire minimaliste et élégante, que j’espère
+                aussi être visuellement agréable.
               </p>
               <div className="btn">
                 <a

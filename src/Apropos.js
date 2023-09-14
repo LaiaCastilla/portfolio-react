@@ -32,7 +32,7 @@ export default function Apropos(props) {
             <p className="about-me-text">
               Je suis actuellement à la recherche de nouvelles opportunités dans
               le domaine du développement front-end. Je suis disponible pour
-              travailler sur place et à distance. Formée à React, je cherche
+              travailler sur place et/ou à distance. Formée à React, je cherche
               toujours à approfondir mes connaissances et à élargir mes
               compétences en programmation. <br />
               Originaire de Barcelone, après avoir étudié en Suisse, je me suis
@@ -143,7 +143,7 @@ export default function Apropos(props) {
           <div className="mt-4">
             {" "}
             On peut discuter en français, anglais, espagnol et catalan. Je suis
-            aussi en train d'apprendre japonais (A2.1)
+            aussi en train d'apprendre le japonais (A2.1)
           </div>
         </p>
 
@@ -159,7 +159,7 @@ export default function Apropos(props) {
             Envoyez-moi un courriel ou contactez-moi via l'un de mes réseaux
             sociaux
           </strong>{" "}
-          si vous souhaitez travailler ensemble ou simplement me dire bonjour !
+          si vous souhaitez travailler ensemble, ou simplement me dire bonjour !
         </p>
       </div>
     </div>
