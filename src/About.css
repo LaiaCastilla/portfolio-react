@@ -18,11 +18,8 @@
   line-height: 35px;
   font-weight: normal;
   text-align: justify;
-  padding-right: 30px;
 }
-/* .about-me p {
-  font-weight: normal;
-} */
+
 .about-me img {
   padding-left: 20px;
   border-radius: 4px;
@@ -35,25 +32,46 @@
 .about-me .intro-links {
   font-size: 18px;
 }
-.skillset {
-  align-items: center;
+
+#contact {
+  margin-top: 0px;
+  text-align: center;
 }
-.skillgit {
-  font-size: 30px;
+#contact .secondary-title {
+  font-family: var(--heading-font);
+  font-size: 55px;
+  display: block;
+  margin: 0 auto;
+  text-align: center;
 }
 
+.skills {
+  display: block;
+  margin: 0 auto;
+}
+.skill-title {
+  font-size: 20px;
+}
 #contact .row {
   padding-left: 20px;
   line-height: 20px;
   max-width: 800px;
+  margin: 0 auto;
 }
 #contact .row i {
   font-size: 30px;
 }
-
+.icn {
+  transition: all 150ms ease-in-out;
+}
+.icn:hover {
+  transform: scale(1.2);
+}
 .react {
   color: #60d7f9;
+  transition: all 150ms ease-in-out;
 }
+
 @media (prefers-reduced-motion: no-preference) {
   .react {
     animation: react-logo-spin infinite 20s linear;
@@ -67,6 +85,9 @@
     transform: rotate(360deg);
   }
 }
+.react:hover {
+  transform: scale(1.2);
+}
 .js {
   color: #eed919;
 }
@@ -77,25 +98,10 @@
   height: 35px;
   line-height: 1;
 }
-#contact {
-  margin-top: 0px;
-}
-#contact .secondary-title {
-  font-family: var(--heading-font);
-  font-size: 55px;
+.git {
+  color: #f05133;
 }
 
-#contact .footer {
-  margin-top: 50px;
-  margin-bottom: 20px;
-}
-#contact .email {
-  transition: all 200ms ease-in-out;
-}
-#contact .email:hover {
-  cursor: pointer;
-  transform: scale(1.1);
-}
 @media (max-width: 830px) {
   .about-me h1 {
     padding-top: 0px;

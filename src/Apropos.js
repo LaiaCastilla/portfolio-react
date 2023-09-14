@@ -1,6 +1,5 @@
 import React from "react";
 
-import vscode from "./images/vscode.svg";
 import responsive from "./images/responsive.png";
 import illustrator from "./images/illustrator.png";
 import designer from "./images/designer.svg";
@@ -71,50 +70,50 @@ export default function Apropos(props) {
       </div>
       <div id="contact">
         <h2 className="secondary-title">Mes compétences</h2>
-        <p className="about-me-text">
-          <span className="d-flex skillset mb-3">
-            <img alt="VsCode" class="false responsive me-3" src={vscode}></img>
-            macOS <i class="ms-3 fa-brands fa-github skillgit"></i> <br />
-          </span>
-          Développement front-end:
-          <div className="skills  text-center mb-2 mt-2">
+        <p className="about-me-text mt-4 text-center">
+          <span className="skill-title">Développement front-end:</span>
+          <div className="skills  text-center mb-5 mt-2">
             {" "}
-            <div class="row row-cols-4">
+            <div class="row row-cols-5">
               <div class="col">
-                <i class="fa-brands fa-react react"></i>
+                <i class="fa-brands fa-react react icn"></i>
               </div>
               <div class="col">
-                <i class="fa-brands fa-js js"></i>{" "}
+                <i class="fa-brands fa-js js icn"></i>{" "}
               </div>
               <div class="col">
-                <i class="fa-brands fa-bootstrap bootstrap"></i>{" "}
+                <i class="fa-brands fa-bootstrap bootstrap icn"></i>{" "}
               </div>
               <div class="col">
                 {" "}
                 <img
                   alt="Responsive"
-                  class="false responsive"
+                  class="false responsive icn"
                   src={responsive}
                 ></img>
+              </div>
+              <div class="col">
+                <i class="fa-brands fa-git-alt git icn"></i>{" "}
               </div>
               <div class="col">React.js</div>
               <div class="col">JavaScript</div>
               <div class="col">Bootstrap</div>
               <div class="col">Responsive development</div>
+              <div class="col">Git</div>
             </div>{" "}
           </div>
-          Web design:
-          <div className="skills text-center mb-2 mt-2">
+          <span className="skill-title">Web design</span>
+          <div className="skills text-center mt-2">
             {" "}
             <div class="row row-cols-4">
               <div class="col">
-                <i class="fa-brands fa-figma"></i>
+                <i class="fa-brands fa-figma icn"></i>
               </div>
               <div class="col">
                 {" "}
                 <img
                   alt="illustrator"
-                  class="false responsive"
+                  class="false responsive icn"
                   src={illustrator}
                 ></img>
               </div>
@@ -122,7 +121,7 @@ export default function Apropos(props) {
                 {" "}
                 <img
                   alt="Affinity Designer 2"
-                  class="false responsive"
+                  class="false responsive icn"
                   src={designer}
                 ></img>
               </div>
@@ -130,7 +129,7 @@ export default function Apropos(props) {
                 {" "}
                 <img
                   alt="Procreate"
-                  class="false responsive"
+                  class="false responsive icn"
                   src={procreate}
                 ></img>
               </div>
@@ -140,7 +139,7 @@ export default function Apropos(props) {
               <div class="col">Procreate</div>
             </div>{" "}
           </div>
-          <div className="mt-4">
+          <div className="mt-5">
             {" "}
             On peut discuter en français, anglais, espagnol et catalan. Je suis
             aussi en train d'apprendre le japonais (A2.1)

@@ -1,6 +1,5 @@
 import React from "react";
 
-import vscode from "./images/vscode.svg";
 import responsive from "./images/responsive.png";
 import illustrator from "./images/illustrator.png";
 import designer from "./images/designer.svg";
@@ -67,51 +66,49 @@ export default function About(props) {
         </div>
       </div>
       <div id="contact">
-        <h2 className="secondary-title">My skillset</h2>
-        <p className="about-me-text">
-          <span className="d-flex skillset mb-3">
-            <img alt="VsCode" class="false responsive me-3" src={vscode}></img>
-            macOS <i class="ms-3 fa-brands fa-github skillgit"></i> <br />
-          </span>
-          Front-end dev:
-          <div className="skills  text-center mb-2 mt-2">
+        <h2 className="secondary-title text-center">My skillset</h2>
+        <p className="about-me-text mt-4 text-center">
+          <span className="skill-title">Front-end development</span>
+          <div className="skills text-center mb-5 mt-2">
             {" "}
-            <div class="row row-cols-4">
+            <div class="row row-cols-5">
               <div class="col">
-                <i class="fa-brands fa-react react"></i>
+                <i class="fa-brands fa-react react icn"></i>
               </div>
               <div class="col">
                 <i class="fa-brands fa-js js"></i>{" "}
               </div>
               <div class="col">
-                <i class="fa-brands fa-bootstrap bootstrap"></i>{" "}
+                <i class="fa-brands fa-bootstrap bootstrap icn"></i>{" "}
               </div>
               <div class="col">
                 {" "}
                 <img
                   alt="Responsive"
-                  class="false responsive"
+                  class="false responsive icn"
                   src={responsive}
                 ></img>
               </div>
+             
               <div class="col">React.js</div>
               <div class="col">JavaScript</div>
               <div class="col">Bootstrap</div>
               <div class="col">Responsive development</div>
+              <div class="col">Git</div>
             </div>{" "}
           </div>
-          Web design:
-          <div className="skills text-center mb-2 mt-2">
+          
+          <div className="skills text-center mt-2">
             {" "}
             <div class="row row-cols-4">
               <div class="col">
-                <i class="fa-brands fa-figma"></i>
+                <i class="fa-brands fa-figma icn"></i>
               </div>
               <div class="col">
                 {" "}
                 <img
                   alt="illustrator"
-                  class="false responsive"
+                  class="false responsive icn"
                   src={illustrator}
                 ></img>
               </div>
@@ -119,7 +116,7 @@ export default function About(props) {
                 {" "}
                 <img
                   alt="Affinity Designer 2"
-                  class="false responsive"
+                  class="false responsive icn"
                   src={designer}
                 ></img>
               </div>
@@ -127,7 +124,7 @@ export default function About(props) {
                 {" "}
                 <img
                   alt="Procreate"
-                  class="false responsive"
+                  class="false responsive icn"
                   src={procreate}
                 ></img>
               </div>
@@ -137,7 +134,7 @@ export default function About(props) {
               <div class="col">Procreate</div>
             </div>{" "}
           </div>
-          <div className="mt-4">
+          <div className="mt-5">
             {" "}
             You can talk to me in: English, French, Spanish & Catalan. I am
             currently learning Japanese(A2.1)
@@ -150,8 +147,8 @@ export default function About(props) {
         <p className="about-me-text">
           I'm currently looking for my first job opportunity as a front-end
           developer so I'm very excited about getting involved in new projects.
-          <br />
           <strong>
+            {" "}
             Send me an email or contact me via any of my social media
           </strong>{" "}
           if you'd like to work together or just want to say hi!
