@@ -22,7 +22,7 @@ export default function Apropos(props) {
           <div className="col-lg">
             <h1 className="mb-4">
               ¡Hola!
-              <div className="d-lg-none"></div>C'est Laia
+              <div className="d-lg-none"></div> C'est Laia
             </h1>
             <h2 className="mb-4">
               <strong>
