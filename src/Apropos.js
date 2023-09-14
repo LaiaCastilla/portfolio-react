@@ -71,7 +71,7 @@ export default function Apropos(props) {
       <div id="contact">
         <h2 className="secondary-title">Mes compétences</h2>
         <p className="about-me-text mt-4 text-center">
-          <span className="skill-title">Développement front-end:</span>
+          <span className="skill-title">Développement front-end</span>
           <div className="skills  text-center mb-5 mt-2">
             {" "}
             <div class="row row-cols-5">

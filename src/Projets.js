@@ -31,11 +31,11 @@ export default function Projets(props) {
               <p>
                 J'ai créé cette application météo en Vanilla JavaScript dans le
                 cadre de SheCodes Plus, un atelier de codage JavaScript avancé
-                de 8 semaines. Codé avec des compétences en Bootstrap, API,
-                hébergement de sites web et JavaScript avancé. À l'aide de
-                Procreate, j'ai créé les icônes météo ainsi que l'arrière-plan,
-                qui s’adaptent en fonction de l’heure locale de la ville
-                consultée. Essayez-la !
+                de 8 semaines. Ceci m'a permis de renforcer mes compétences en
+                Bootstrap, API, hébergement de sites web et JavaScript avancé. À
+                l'aide de Procreate, j'ai créé les icônes météo ainsi que
+                l'arrière-plan, qui s’adaptent en fonction de l’heure locale de
+                la ville consultée.
               </p>
               <div className="btn">
                 <a
@@ -76,7 +76,7 @@ export default function Projets(props) {
               <p>
                 Suite au projet ci-dessus, j'ai construit une application
                 d'horloge mondiale en Vanilla JavaScript. Ce projet fait
-                également usage de Bootstrap, Javascript et requêtes API.
+                également usage de Bootstrap, Javascript et de requêtes API.
                 Salvador Dalí et le concept impalpable du temps m'ont inspiré
                 pour l'arrière-plan de l'application, que j'ai dessiné avec
                 Procreate.
@@ -119,13 +119,10 @@ export default function Projets(props) {
             <div className="project-description">
               <h2 className="mb-3">Projet de voyage</h2>
               <p>
-                Un site web moins complexe présentant une belle destination de
-                voyage. Complètement réactif, il a été réalisé avec du HTML et
-                du CSS plus avancés que les deux précédents, et utilise des
-                technique SEO pour améliorer le référencement. Il s'agit d'une
-                page d'atterrissage joliment conçue et bien exécutée, avec des
-                informations utiles et des liens fonctionnels. Jetez-y un coup
-                d'œil si vous envisagez de visiter le Japon !
+                Un page d'atterrissage présentant une belle destination de
+                voyage. Complètement responsive, il a été réalisé avec du HTML
+                et du CSS plus avancés que les deux précédents, et utilise des
+                technique SEO pour améliorer le référencement.
               </p>
               <div className="btn">
                 <a
@@ -164,11 +161,11 @@ export default function Projets(props) {
             <div className="project-description">
               <h2 className="mb-3">Application météo React</h2>
               <p>
-                Un peu comme pour mon premier projet, cette fois-ci je me suis
-                plongé dans le développement React. J'ai combiné toutes les
-                connaissances acquises précédemment pour construire une
-                application météo intégrant les meilleures pratiques de codage,
-                ainsi que les outils et technologies les plus populaires.
+                Cette application est similaire à mon premier projet, mais je me
+                suis cette fois-ci plongé dans le développement React. J'ai
+                combiné toutes les connaissances acquises précédemment pour
+                construire une application météo intégrant les meilleures
+                pratiques de codage.
               </p>
               <div className="btn">
                 <a

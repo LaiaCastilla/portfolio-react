@@ -89,7 +89,10 @@ export default function About(props) {
                   src={responsive}
                 ></img>
               </div>
-             
+              <div class="col">
+                <i class="fa-brands fa-git-alt git icn"></i>{" "}
+              </div>
+
               <div class="col">React.js</div>
               <div class="col">JavaScript</div>
               <div class="col">Bootstrap</div>
@@ -97,7 +100,7 @@ export default function About(props) {
               <div class="col">Git</div>
             </div>{" "}
           </div>
-          
+          <span className="skill-title">Web design</span>
           <div className="skills text-center mt-2">
             {" "}
             <div class="row row-cols-4">

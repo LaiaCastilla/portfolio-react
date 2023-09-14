@@ -9,7 +9,7 @@ export default function FooterFr() {
         <h2 class="email">lcastillaiamoros@gmail.com</h2>
         <div class="social-media">
           <a
-            href="https://github.com/Aylhenia"
+            href="https://github.com/LaiaCastilla"
             title="My GitHub"
             target="_blank"
             rel="noreferrer"
@@ -32,7 +32,7 @@ export default function FooterFr() {
         <div class="signature">
           Conçu et codé en{" "}
           <a
-            href="https://github.com/Aylhenia/portfolio-react"
+            href="https://github.com/LaiaCastilla/portfolio-react"
             title="Portfolio's repository"
             target="_blank"
             rel="noreferrer"
