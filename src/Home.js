@@ -34,7 +34,7 @@ export default function Home(props) {
           more about me
         </a>
       </div>
-      <Footer />
+      {/* <Footer /> */}
     </div>
   );
 }

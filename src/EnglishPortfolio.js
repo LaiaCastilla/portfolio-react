@@ -17,7 +17,10 @@ export default function EnglishPorfolio(props) {
       />
 
       {page === "home" ? (
-        <Home page={page} setPage={setPage} />
+        <div>
+          <Home page={page} setPage={setPage} />
+          <Footer />
+        </div>
       ) : page === "work" ? (
         <div>
           {" "}

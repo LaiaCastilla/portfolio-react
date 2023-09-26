@@ -32,7 +32,7 @@
   color: var(--btn-color);
 }
 
-.Home .footer {
+/* .Home .footer {
   position: fixed;
   display: block;
   width: 100%;
@@ -41,12 +41,13 @@
   bottom: 0;
 
   height: 150px;
-}
+} */
 
 @media (max-width: 830px) {
   .footer {
     padding: 10px 10px 0px 10px;
     bottom: 0;
+    margin-top: 150px;
     margin-bottom: 20px;
     width: 100%;
     /* Height of the footer*/
