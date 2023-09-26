@@ -16,7 +16,10 @@ export default function FrenchPortfolio(props) {
         setSite={setSite}
       />
       {site === "accueil" ? (
-        <Accueil site={site} setSite={setSite} />
+        <div>
+          <Accueil site={site} setSite={setSite} />
+          <FooterFr />
+        </div>
       ) : site === "projets" ? (
         <div>
           {" "}

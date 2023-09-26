@@ -1,6 +1,5 @@
 import React from "react";
 
-// import Footer from "./Footer";
 import "./Home.css";
 
 export default function Home(props) {
@@ -34,7 +33,6 @@ export default function Home(props) {
           more about me
         </a>
       </div>
-      {/* <Footer /> */}
     </div>
   );
 }

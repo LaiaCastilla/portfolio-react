@@ -45,6 +45,7 @@
 
 @media (max-width: 830px) {
   .footer {
+    position: relative;
     padding: 10px 10px 0px 10px;
     bottom: 0;
     margin-top: 150px;
