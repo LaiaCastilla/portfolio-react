@@ -1,7 +1,5 @@
 .footer {
   margin-top: 50px;
-  margin-right: 20px;
-  padding-right: 20px;
 }
 .email {
   font-size: 24px;
@@ -34,6 +32,17 @@
   color: var(--btn-color);
 }
 
+.Home .footer {
+  position: fixed;
+  display: block;
+  width: 100%;
+  margin: 0 auto;
+  padding-right: 30px;
+  bottom: 0;
+
+  height: 150px;
+}
+
 @media (max-width: 830px) {
   .footer {
     padding: 10px 10px 0px 10px;
@@ -55,13 +64,3 @@
 }
 
 /* In homepage */
-.Home .footer {
-  position: fixed;
-  display: block;
-  margin: 0 auto;
-  padding-right: 30px;
-  bottom: 0;
-  width: 100%;
-  /* Height of the footer*/
-  height: 150px;
-}

@@ -12,12 +12,12 @@
   transform: scale(1.1);
   opacity: 1;
 }
-.navbar-brand {
+/* .navbar-brand {
   margin-left: 80px;
 }
 .navbar-nav {
   padding-right: 139px;
-}
+} */
 
 @media (max-width: 830px) {
   .navbar-brand {
