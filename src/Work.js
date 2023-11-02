@@ -173,7 +173,7 @@ export default function Work(props) {
                   className="launch-link"
                   target="_blank"
                   rel="noreferrer"
-                  title="Check out this world clock application"
+                  title="Check out this weather application"
                 >
                   <i className="fa-regular fa-window-restore"></i> Launch
                 </a>
@@ -246,21 +246,24 @@ export default function Work(props) {
               <h2 className="mb-3">Todo App</h2>
               <p>
                 This todo application was made using React, Redux, Framer motion
+                and Sass. Thanks to localstorage, tasks are stored in the system
+                even after closing the webpage, making this application actually
+                useful. I love the smooth animations!
               </p>
               <div className="btn">
                 <a
-                  href="https://reactweatherapplicationlaia.netlify.app/"
+                  href="https://laia-react-todo.netlify.app/"
                   className="launch-link"
                   target="_blank"
                   rel="noreferrer"
-                  title="Check out this world clock application"
+                  title="Check out this todo application"
                 >
                   <i className="fa-regular fa-window-restore"></i> Launch
                 </a>
               </div>
               <div className="btn">
                 <a
-                  href="https://github.com/LaiaCastilla/react-weather-app"
+                  href="https://github.com/LaiaCastilla/todo-app"
                   className="launch-link"
                   target="_blank"
                   rel="noreferrer"
