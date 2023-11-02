@@ -1,0 +1,68 @@
+.footer {
+  margin-top: 50px;
+}
+.email {
+  font-size: 24px;
+  font-family: var(--default-font);
+}
+.icon {
+  margin-top: 15px;
+  margin-bottom: 20px;
+  font-size: 24px;
+  padding: 0px 20px;
+  transition: all 200ms ease-in-out;
+  color: #4cb0e1;
+}
+.icon:hover {
+  transform: scale(1.5);
+}
+.signature {
+  font-family: bitter;
+  color: var(--navigation-color);
+  font-size: 12px;
+  margin-bottom: 5px;
+}
+.signature a {
+  text-decoration: none;
+  color: var(--navigation-color);
+  font-weight: 700;
+  transition: all 200ms ease-in-out;
+}
+.signature a:hover {
+  color: var(--btn-color);
+}
+
+/* .Home .footer {
+  position: fixed;
+  display: block;
+  width: 100%;
+  margin: 0 auto;
+  padding-right: 30px;
+  bottom: 0;
+
+  height: 150px;
+} */
+
+@media (max-width: 830px) {
+  .footer {
+    position: relative;
+    padding: 10px 10px 0px 10px;
+    bottom: 0;
+    margin-top: 150px;
+    margin-bottom: 20px;
+    width: 100%;
+    /* Height of the footer*/
+    height: 120px;
+  }
+  .footer .email {
+    font-size: 14px;
+  }
+  .social-media {
+    font-size: 20px;
+  }
+  .icon {
+    padding: 0px 15px;
+  }
+}
+
+/* In homepage */

@@ -1,0 +1,105 @@
+.secondary-title {
+  font-size: 64px;
+  width: 600px;
+  text-align: start;
+  padding: 0px;
+}
+.project-description h2 {
+  font-family: var(--heading-font);
+  font-weight: bold;
+  font-size: 50px;
+  color: var(--navigation-color);
+}
+@keyframes show {
+  from {
+    opacity: 0;
+    scale: 25%;
+  }
+  to {
+    opacity: 1;
+    scale: 100%;
+  }
+}
+.work-portfolio img {
+  aspect-ratio: 5/4;
+  object-fit: cover;
+
+  /* scrolling animation */
+  view-timeline-name: --image;
+  view-timeline-axis: block;
+  animation-timeline: --image;
+  animation-name: show;
+  animation-range: entry 25% cover 50%;
+  animation-fill-mode: both;
+}
+.project-description {
+  padding-top: 90px;
+  view-timeline-name: --image;
+  view-timeline-axis: block;
+  animation-timeline: --image;
+  animation-name: show;
+  animation-range: entry 25% cover 50%;
+  animation-fill-mode: both;
+}
+.weather {
+  padding-top: 60px;
+}
+.btn {
+  margin-top: 20px;
+}
+.launch-link {
+  border-radius: 4px;
+  padding: 20px 15px;
+  text-decoration: none;
+  text-transform: capitalize;
+  border: solid 1px var(--navigation-color);
+  color: var(--secondary-color);
+  font-family: bitter;
+  transition: all 200ms ease-in-out;
+}
+.launch-link:hover {
+  color: var(--primary-color);
+  background: var(--secondary-color);
+}
+
+.work-inquiry {
+  font-size: 55px;
+  margin-top: 100px;
+  font-family: var(--heading-font);
+  text-decoration: none;
+  color: var(--navigation-color);
+  transition: all 200ms ease-in-out;
+}
+.work-inquiry .hover-underline-animation {
+  color: var(--navigation-color);
+}
+.work-inquiry .hover-underline-animation::after {
+  background-color: var(--navigation-color);
+}
+
+@media (max-width: 830px) {
+  .container {
+    max-width: 100%;
+  }
+  .secondary-title {
+    font-size: 40px;
+    width: 375px;
+    text-align: center;
+    padding: 0px;
+  }
+  .project-description {
+    padding: 5px 10px;
+    margin-bottom: 40px;
+    font-size: 13px;
+  }
+  .project-description h2 {
+    font-size: 30px;
+  }
+  .project-description a {
+    margin-top: 0px;
+  }
+  .work-inquiry {
+    margin-top: 10px;
+    font-size: 30px;
+  }
+}
