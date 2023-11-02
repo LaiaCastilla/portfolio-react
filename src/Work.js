@@ -5,6 +5,7 @@ import worldclock from "./images/worldclock.png";
 import yakushima from "./images/YakushimaTravel.png";
 import reactweather from "./images/reactweather.png";
 import dictionary from "./images/dictionary.png";
+import todo from "./images/todo.png";
 import "./Work.css";
 
 export default function Work(props) {
@@ -221,6 +222,45 @@ export default function Work(props) {
               <div className="btn">
                 <a
                   href="https://github.com/LaiaCastilla/dictionary-project"
+                  className="launch-link"
+                  target="_blank"
+                  rel="noreferrer"
+                  title="Check out the code"
+                >
+                  <i className="fa-solid fa-code code-icon"></i> Code
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="row mb-5">
+          <div className="col-md-6 order-md-2">
+            <img
+              src={todo}
+              alt="Todo application"
+              className="img-fluid rounded"
+            />
+          </div>
+          <div className="col-md-6 order-md-1">
+            <div className="project-description">
+              <h2 className="mb-3">Todo App</h2>
+              <p>
+                This todo application 
+              </p>
+              <div className="btn">
+                <a
+                  href="https://reactweatherapplicationlaia.netlify.app/"
+                  className="launch-link"
+                  target="_blank"
+                  rel="noreferrer"
+                  title="Check out this world clock application"
+                >
+                  <i className="fa-regular fa-window-restore"></i> Launch
+                </a>
+              </div>
+              <div className="btn">
+                <a
+                  href="https://github.com/LaiaCastilla/react-weather-app"
                   className="launch-link"
                   target="_blank"
                   rel="noreferrer"
