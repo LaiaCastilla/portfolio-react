@@ -1,6 +1,7 @@
 import React from "react";
 
 import responsive from "./images/responsive.png";
+import redux from "./images/redux.png";
 import illustrator from "./images/illustrator.png";
 import designer from "./images/designer.svg";
 import procreate from "./images/procreate.png";
@@ -109,6 +110,25 @@ export default function About(props) {
                 </div>
 
                 <div className="row">Git</div>
+              </div>
+              <div className="col">
+                <div className="row">
+                  <i class="fa-brands fa-sass"></i>
+                </div>
+
+                <div className="row">Sass</div>
+              </div>
+              <div className="col">
+                <div className="row">
+                  <div className="col">
+                    <img
+                      alt="Redux"
+                      className="false responsive icn"
+                      src={redux}
+                    ></img>
+                  </div>
+                </div>
+                <div className="row">Redux</div>
               </div>
             </div>{" "}
           </div>
