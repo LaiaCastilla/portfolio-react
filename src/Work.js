@@ -245,7 +245,7 @@ export default function Work(props) {
             <div className="project-description">
               <h2 className="mb-3">Todo App</h2>
               <p>
-                This todo application 
+                This todo application was made using React, Redux, Framer motion
               </p>
               <div className="btn">
                 <a
