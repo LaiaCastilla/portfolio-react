@@ -196,7 +196,7 @@ export default function Work(props) {
           <div className="col-md-6">
             <img
               src={dictionary}
-              alt="Drawing app"
+              alt="Dictionary app"
               className="img-fluid rounded"
             />
           </div>

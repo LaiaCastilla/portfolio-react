@@ -5,6 +5,7 @@ import worldclock from "./images/worldclock.png";
 import yakushima from "./images/YakushimaTravel.png";
 import reactweather from "./images/reactweather.png";
 import dictionary from "./images/dictionary.png";
+import todo from "./images/todo.png";
 import "./Work.css";
 
 export default function Projets(props) {
@@ -222,6 +223,51 @@ export default function Projets(props) {
               <div className="btn">
                 <a
                   href="https://github.com/Aylhenia/dictionary-project"
+                  className="launch-link"
+                  target="_blank"
+                  rel="noreferrer"
+                  title="Check out the code"
+                >
+                  <i className="fa-solid fa-code code-icon"></i> Code
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="row mb-5">
+          <div className="col-md-6 order-md-2">
+            <img
+              src={todo}
+              alt="Todo application"
+              className="img-fluid rounded"
+            />
+          </div>
+          <div className="col-md-6 order-md-1">
+            <div className="project-description">
+              <h2 className="mb-3">
+                Application <em>Todo list</em>
+              </h2>
+              <p>
+                Cette application <em>todo</em> a été réalisée en utilisant
+                React, Redux, Framer motion et Sass. Grâce à localstorage, les
+                tâches sont stockées dans le système même après avoir fermé la
+                page web, ce qui rend cette application réellement utile.
+                J'adore la fluiditée des animations !
+              </p>
+              <div className="btn">
+                <a
+                  href="https://laia-react-todo.netlify.app/"
+                  className="launch-link"
+                  target="_blank"
+                  rel="noreferrer"
+                  title="Check out this todo application"
+                >
+                  <i className="fa-regular fa-window-restore"></i> Lancer
+                </a>
+              </div>
+              <div className="btn">
+                <a
+                  href="https://github.com/LaiaCastilla/todo-app"
                   className="launch-link"
                   target="_blank"
                   rel="noreferrer"
