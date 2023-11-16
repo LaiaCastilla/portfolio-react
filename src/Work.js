@@ -6,6 +6,7 @@ import yakushima from "./images/YakushimaTravel.png";
 import reactweather from "./images/reactweather.png";
 import dictionary from "./images/dictionary.png";
 import todo from "./images/todo.png";
+import nihongo from "./images/nihongo.png";
 import "./Work.css";
 
 export default function Work(props) {
@@ -264,6 +265,51 @@ export default function Work(props) {
               <div className="btn">
                 <a
                   href="https://github.com/LaiaCastilla/todo-app"
+                  className="launch-link"
+                  target="_blank"
+                  rel="noreferrer"
+                  title="Check out the code"
+                >
+                  <i className="fa-solid fa-code code-icon"></i> Code
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="row mb-5">
+          <div className="col-md-6">
+            <img
+              src={nihongo}
+              alt="Nihongo exchange chat app"
+              className="img-fluid rounded"
+            />
+          </div>
+          <div className="col-md-6">
+            <div className="project-description">
+              <h2 className="mb-3"> Chat App</h2>
+              <p>
+                A real-time chat application coded using React and Firebase as
+                Backend-as-a-Service (Baas). By simply loging in with a Google
+                Account you can have real-time conversations with people around
+                the world. I made this chat app with the idea of practicing
+                Japanese in mind. After finding it difficult to meeting someone
+                to do so in Geneva among all places, it's become a seed for an
+                hypothetical future project.
+              </p>
+              <div className="btn">
+                <a
+                  href="https://nihongoexchange.netlify.app/"
+                  className="launch-link"
+                  target="_blank"
+                  rel="noreferrer"
+                  title="Visit this dictionary application"
+                >
+                  <i className="fa-regular fa-window-restore"></i> Launch
+                </a>
+              </div>
+              <div className="btn">
+                <a
+                  href="https://github.com/LaiaCastilla/chat-app"
                   className="launch-link"
                   target="_blank"
                   rel="noreferrer"
