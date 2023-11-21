@@ -292,9 +292,9 @@ export default function Work(props) {
                 Backend-as-a-Service (Baas). By simply loging in with a Google
                 Account you can have real-time conversations with people around
                 the world. I made this chat app with the idea of practicing
-                Japanese in mind. After finding it difficult to meeting someone
-                to do so in Geneva among all places, it's become a seed for an
-                hypothetical future project.
+                Japanese in mind as I found it difficult to meeting someone to
+                do so, in Geneva among all places. I'd love for it to become a
+                real app someday!
               </p>
               <div className="btn">
                 <a
