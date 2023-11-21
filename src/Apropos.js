@@ -2,6 +2,7 @@ import React from "react";
 
 import responsive from "./images/responsive.png";
 import redux from "./images/redux.png";
+import firebase from "./images/firebase.svg";
 import illustrator from "./images/illustrator.png";
 import designer from "./images/designer.svg";
 import procreate from "./images/procreate.png";
@@ -131,6 +132,18 @@ export default function Apropos(props) {
                   </div>
                 </div>
                 <div className="row">Redux</div>
+              </div>
+              <div className="col">
+                <div className="row">
+                  <div className="col">
+                    <img
+                      alt="Redux"
+                      className="false responsive icn"
+                      src={firebase}
+                    ></img>
+                  </div>
+                </div>
+                <div className="row">Firebase</div>
               </div>
             </div>{" "}
           </div>
